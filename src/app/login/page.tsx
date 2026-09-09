@@ -2,7 +2,7 @@
 "use client";
 
 import { useState } from "react";
-import { useAuth } from "../hooks/userAuth";
+import { useAuth } from "../hooks/useAuth";
 import AuthForm from "../components/AuthForm";
 import "../../styles/globals.css";
 

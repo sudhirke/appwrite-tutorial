@@ -2,7 +2,7 @@
 "use client";
 
 import Link from "next/link";
-import { useAuth } from "../hooks/userAuth";
+import { useAuth } from "../hooks/useAuth";
 
 export default function Navbar() {
   const { current, logout } = useAuth();
